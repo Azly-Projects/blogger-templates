@@ -1398,7 +1398,7 @@ $(".column-right .HTML .widget-content").each(function () {
       type: "get",
       dataType: "jsonp",
       success: function (sherwood) {
-        console.log({ sherwood });
+        console.log({ sherwood }, { jarry });
         var u = "";
         var phawn = '<div class="ty-feat">';
         for (
@@ -1725,6 +1725,7 @@ $(".featured-grid .HTML .widget-content").each(function () {
       type: "get",
       dataType: "jsonp",
       success: function (chaislyn) {
+        console.log({ chaislyn }, { benardo });
         var u = "";
         var kimbrell = '<div class="ty-feat">';
         for (var angelos = 0; angelos < chaislyn.feed.entry.length; angelos++) {
@@ -2003,7 +2004,7 @@ $(".ty-trigger .HTML .widget-content span.latestcomments").each(function () {
     type: "get",
     dataType: "jsonp",
     success: function (salil) {
-      console.log({ salil });
+      console.log({ salil }, { gudrun });
       var u = "";
       var kayhan = '<div class="tyard-komet">';
       for (var vaitiare = 0; vaitiare < salil.feed.entry.length; vaitiare++) {
