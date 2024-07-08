@@ -1398,6 +1398,7 @@ $(".column-right .HTML .widget-content").each(function () {
       type: "get",
       dataType: "jsonp",
       success: function (sherwood) {
+        console.log({ sherwood });
         var u = "";
         var phawn = '<div class="ty-feat">';
         for (
@@ -2002,6 +2003,7 @@ $(".ty-trigger .HTML .widget-content span.latestcomments").each(function () {
     type: "get",
     dataType: "jsonp",
     success: function (salil) {
+      console.log({ salil });
       var u = "";
       var kayhan = '<div class="tyard-komet">';
       for (var vaitiare = 0; vaitiare < salil.feed.entry.length; vaitiare++) {
